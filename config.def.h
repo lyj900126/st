@@ -16,7 +16,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/fish";
+static char *shell = "/bin/zsh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -99,14 +99,14 @@ float alpha = 0.8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"#ff6767",
-	"green3",
-	"yellow3",
-	"#a277ff",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#110f18",  /* black */
+	"#ff6767",  /* red */
+	"#61ffca",  /* green: */
+	"#ffca85",  /* yellow */
+	"#a277ff",  /* blue */
+	"#a277ff",  /* magenta */
+	"#61ffca",  /* cyan */
+	"#edecee",  /* gray90 */
 
 	/* 8 bright colors */
 	"gray50",
